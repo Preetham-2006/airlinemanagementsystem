@@ -7,17 +7,11 @@ The Airline Reservation System is a web-based application that allows users to b
 **Features**
 
 User Registration and Login
-
 Flight Search and Booking
-
 Payment Integration
-
 Seat Selection
-
 Booking Management (Modify/Cancel)
-
 Admin Dashboard for Flight Management
-
 Email Notifications for Booking Confirmation
 
 **Technologies Used**

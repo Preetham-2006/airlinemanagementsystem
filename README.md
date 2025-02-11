@@ -46,48 +46,14 @@ Clone the repository:
 git clone https://github.com/your-repository/airline-reservation-system.git
 cd airline-reservation-system
 
-Install dependencies:
-npm install
+**Future Enhancements**
 
-Configure environment variables:
+Database Integration: Use a database like MySQL, PostgreSQL, or Oracle to store flight and booking data persistently. JDBC (Java Database Connectivity) is the standard way to interact with databases in Java.
 
-Create a .env file in the root directory.
+User Authentication: Implement user accounts and login/logout functionality.
 
-Add necessary configurations (Database URL, API Keys, etc.).
+Web Interface: Develop a web-based UI using Spring Boot or another framework.
 
-Start the server:
-npm start
+Payment Integration: Integrate with payment gateways for online payments.
 
-Open http://localhost:3000 in your browser.
-
-API Endpoints
-
-Method
-
-Endpoint
-
-Description
-
-GET
-
-/api/flights
-
-Get available flights
-
-POST
-
-/api/bookings
-
-Create a new booking
-
-GET
-
-/api/bookings/:id
-
-Get booking details
-
-DELETE
-
-/api/bookings/:id
-
-Cancel a booking
+More Advanced Search: Allow searching by price range, cabin class, etc.
